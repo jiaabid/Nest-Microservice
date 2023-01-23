@@ -1,0 +1,9 @@
+API_Gateway/node_modules
+API_Gateway/dist
+
+service-a/node_modules
+service-a/dist
+
+service-b/node_modules
+service-b/dist
+
