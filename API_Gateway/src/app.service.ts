@@ -26,7 +26,6 @@ export class AppService {
   async getBook(id: number) {
     console.log(id)
     return this.bookClient.send("findOneBook", id).pipe().toPromise()
-
   }
 
   //get all authors
@@ -38,5 +37,6 @@ export class AppService {
   getAuthor(id) {
     return this.authorClient.send("findOneAuthor", id)
   }
+  
 
 }
